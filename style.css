@@ -1,0 +1,51 @@
+:root{
+    --darkGray: hsl(0, 0%, 63%);
+    --black: hsl(0, 0%, 0%);
+    --white: hsl(0, 0%, 100%);
+    --veryDarkGray: hsl(0, 0%, 27%);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+header{
+    background-image: url('./images/mobile-image-hero-1.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hamburguer{
+    display: flex;
+    padding: 3rem;
+    gap: 5rem;
+}
+
+.next{
+    background-color: black;
+    width: 25vh;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: 900;
+    position: absolute;
+    right: 0;
+    bottom: 10.5rem;
+}
+
+
+
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
