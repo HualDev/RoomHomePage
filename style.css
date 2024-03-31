@@ -24,6 +24,10 @@ header{
     gap: 5rem;
 }
 
+.menu{
+    display: none;
+}
+
 .next{
     background-color: black;
     width: 25vh;
@@ -37,13 +41,65 @@ header{
     bottom: 10.5rem;
 }
 
+.discover{
+    padding: 2.5rem;
+}
 
+h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+p{
+    color: var(--darkGray);
+    line-height: 2;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
+.show{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+h2{
+    text-transform: uppercase;
+    margin: 3rem 0;
+    letter-spacing: 0.7rem;
+}
+
+.available{
+    display: none;
+    width: 100vh;
+}
+
+.manufactered{
+    display: none;
+    width: 50%;
+}
+
+.furniture{
+    width: 100%;
+    padding: 2rem;
+}
+
+.ourFurnituri{
+    letter-spacing: 0.5rem;
+}
+
+.room img{
+    width: 100%;
+}
+
+.chair img{
+    width: 100%;
+}
 
 .attribution{
-    font-size: 11px;
+    font-size: 1rem;
     text-align: center;
+    padding: 2rem 0;
 }
 
 .attribution a{
