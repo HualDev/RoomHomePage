@@ -38,7 +38,7 @@ header{
     font-weight: 900;
     position: absolute;
     right: 0;
-    bottom: 10.5rem;
+    bottom: 10.4rem;
 }
 
 .discover{
@@ -114,14 +114,37 @@ h2{
 
     header{
         width: 60%;
-        height: 20rem;
+        height: 25rem;
         background-image: url('./images/desktop-image-hero-1.jpg');
         background-position: center;
     }
 
+    .next{
+        display: none;
+    }
+
     .discover{
-        width:40%;
-        padding: 2rem 2rem 0 2rem;
+        width: 40%;
+        height: 25rem;
+    }
+
+    .provide{
+        height: 5rem;
+    }
+
+    .show{
+        margin-top: 1rem;
+    }
+
+    .next1{
+        background-color: black;
+        width: 12.5vh;
+        height: 6vh;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        font-weight: 900;
+        margin: 3.85rem 0 0 -2.5rem ;
     }
 
     .room{
