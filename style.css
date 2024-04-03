@@ -119,6 +119,31 @@ h2{
         background-position: center;
     }
 
+    .hamb{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        color: var(--white);
+        justify-content: space-around;
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+
+    li{
+        cursor: pointer;
+    }
+
+    .hamburguer{
+        gap: 0;
+    }
+
     .next{
         display: none;
     }
