@@ -169,7 +169,7 @@ h2{
         justify-content:space-around;
         align-items: center;
         font-weight: 900;
-        margin: 3.85rem 0 0 -2.5rem ;
+        margin: 1.65rem 0 0 -2.5rem ;
     }
 
     .room{
@@ -211,7 +211,7 @@ h2{
     }
 
     .attribution{
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 }
 
