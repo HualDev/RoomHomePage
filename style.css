@@ -119,6 +119,10 @@ h2{
         background-position: center;
     }
 
+    h1{
+        font-size: 1.5rem;
+    }
+
     .hamb{
         display: none;
     }
@@ -153,12 +157,37 @@ h2{
         height: 25rem;
     }
 
+    .discover::before{
+        content: url('./images/icon-angle-right.svg');
+        background-color: black;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4.2%;
+        position: absolute;
+        bottom: 38.1%;
+    }
+
+    .discover::after{
+        content: url('./images/icon-angle-left.svg');
+        background-color: black;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 4.2%;
+        position: absolute;
+        bottom: 38.1%;
+        left: 60%;
+    }
+
     .provide{
         height: 5rem;
     }
 
     .show{
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
     .next1{
@@ -227,9 +256,31 @@ h2{
         width: 80%;
     }
 
-    .next1{
+    /* .next1{
         margin: 5.7rem 0 0 -2.5rem ;
         padding: 1rem;
         width: 6.7rem;
+    } */
+
+    .discover::before{
+        width: 2.5%;
+        left: 62%;
+    }
+
+    .discover::after{
+        width: 2.5%;
+        left: 58%;
+    }
+}
+
+@media (min-width:75rem) {
+    .discover::before{
+        width: 3%;
+        left: 62%;
+    }
+
+    .discover::after{
+        width: 3%;
+        left: 58%;
     }
 }
