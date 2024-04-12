@@ -140,12 +140,22 @@ h2{
         font-size: 0.8rem;
     }
 
-    li{
+    li:hover{
         cursor: pointer;
+        border-bottom: solid 0.13rem white;
+        padding-bottom: 0.5rem;
     }
 
     .hamburguer{
         gap: 0;
+    }
+
+    .now{
+        cursor: pointer;
+    }
+
+    .arrow{
+        cursor: pointer;
     }
 
     .next{
@@ -169,6 +179,11 @@ h2{
         bottom: 38.1%;
     }
 
+    .discover::before:hover{
+        background-color: var(--darkGray);
+        cursor: pointer;
+    }
+
     .discover::after{
         content: url('./images/icon-angle-left.svg');
         background-color: black;
@@ -180,6 +195,11 @@ h2{
         position: absolute;
         bottom: 38.1%;
         left: 60%;
+    }
+
+    .discover::after:hover{
+        background-color: red;
+        cursor: pointer;
     }
 
     .provide{
